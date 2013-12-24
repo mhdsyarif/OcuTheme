@@ -1,0 +1,145 @@
+/*
+Theme Name: Ocu Theme
+Theme URI: http://www.mhdsyarif.com
+Description: Belajar Membuat Thema untuk Bangsa Indonesia
+Author: Mhd. Syarif
+Author URI: http://www.mhdsyarif.com
+Version : 1.0;
+*/
+
+body {
+  font-family: Georgia, "Bitstream Charter", serif;
+  background: url('images/body.png');
+  
+}
+
+#wrap {  
+  border:8px solid rgba(0, 0, 0, 0.18); left: -8px;  
+  width:900px;  
+  margin:0 auto;  
+  padding:10px;  
+  background:#ffffff;  
+} 
+
+#header {
+	height: 120px;
+	background: #cccccc;
+}
+
+.blogtitle {
+	font-size: 30px;
+	color: #000;
+	padding: 30px 0 0 30px;
+	margin: 0;
+}
+.description {
+	font-size: 14px;
+	padding-left: 30px;
+	margin: 0;
+}
+#menu {
+	margin-top: 10px;
+	padding: 0;
+	background: #000;
+	height: 30px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 5px 0 0 15px;
+	list-style: none;
+	display: block;
+}
+
+#menu li, #menu li a {
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#maincontent {
+	margin-top: 10px;
+}
+
+#content {
+	width: 590px;
+	background: #FFFFFF;
+	float: left;
+}
+.title, .title a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#postmeta {
+	font-size: 10px;
+	background: #EDEDED;
+	padding: 10px;
+}
+
+#sidebar {
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+}
+
+#sidebar ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#sidebar li {
+	list-style: none;
+	font-size: 12px;
+}
+
+#sidebar li a {
+	text-decoration: none;
+}
+
+#sidebar h3 {
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+#lebar {
+	background: #cccccc;
+	margin-bottom: 10px;
+}
+
+#kiri {
+	background: #cccccc;
+	width: 145px;
+	float: left;
+	margin-right: 10px;
+}
+
+#kanan {
+	background: #cccccc;
+	width: 145px;
+	float: left;
+}
+/*
+#bawahkiri {
+	background: #cccccc;
+	width: auto;
+}
+
+#bawahtengah {
+	background: #cccccc;
+	width: auto;
+}
+
+#bawahkanan {
+	background: #cccccc;
+	width: auto;
+} */
+
+#footer {
+	font-size: 10px;
+	background: #EDEDED;
+	text-align: center;
+	padding: 10px;
+}
