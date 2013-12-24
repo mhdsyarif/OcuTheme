@@ -64,38 +64,7 @@ function ocutheme_widgets() {
     'before_title' => '<h3 class="widget-title">',  
     'after_title' => '</h3>',  
   ) );
-
-  register_sidebar( array(  
-    'name' => 'Sidebar Bawah Kiri',  
-    'id' => 'sidebar-bawah-kiri',  
-    'description' => 'Sidebar bawah dengan lebar 145px terletak di bawah atas footer',  
-    'before_widget' => '<li id="%1$s" class="widget-container %2$s">',  
-    'after_widget' => '</li>',  
-    'before_title' => '<h3 class="widget-title">',  
-    'after_title' => '</h3>',  
-  ) );   
-
-   register_sidebar( array(  
-    'name' => 'Sidebar Bawah Tengah',  
-    'id' => 'sidebar-bawah-tengah',  
-    'description' => 'Sidebar bawah dengan lebar 145px terletak di bawah atas footer',  
-    'before_widget' => '<li id="%1$s" class="widget-container %2$s">',  
-    'after_widget' => '</li>',  
-    'before_title' => '<h3 class="widget-title">',  
-    'after_title' => '</h3>',  
-  ) );   
-    
-     register_sidebar( array(  
-    'name' => 'Sidebar Bawah Kanan',  
-    'id' => 'sidebar-bawah-kanan',  
-    'description' => 'Sidebar bawah dengan lebar 145px terletak di bawah atas footer',  
-    'before_widget' => '<li id="%1$s" class="widget-container %2$s">',  
-    'after_widget' => '</li>',  
-    'before_title' => '<h3 class="widget-title">',  
-    'after_title' => '</h3>',  
-  ) );  
-
-
+ 
 }  
 add_action( 'widgets_init', 'ocutheme_widgets' );  
 ?> 
