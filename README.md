@@ -1,4 +1,4 @@
-OcuTheme
+OcuTheme Version 1.0
 ========
 
-Membuat Tema di WordPress
+Learn WordPress Theme
